@@ -286,7 +286,7 @@ public class StickyListHeadersListView extends FrameLayout {
     // This is called in response to the data set or the adapter changing
     private void clearHeader() {
         if (mHeader != null) {
-            removeView(mHeader);
+            //removeView(mHeader);
             mHeader = null;
             mHeaderId = null;
             mHeaderPosition = null;
